@@ -21,7 +21,7 @@ Estos son los pilares de la programación estructurada y orientada a objetos.
 
 | **Concepto** | **Qué es** | **Detalle** |
 |---------------|-------------|--------------|
-| **Función** | Bloque de código que realiza una tarea específica y puede reutilizarse. | Puede estar sola (función global) o dentro de una clase. |
+| **Función** | Bloque de código que realiza una tarea específica y puede reutilizarse. En los lenguajes de programación existen **funciones creadas por el usuario** y **funciones integradas (built-in)** que ya vienen con el lenguaje. | **Ejemplo (usuario):** `def saludar(): print("Hola!")` <br> **Ejemplo (integradas):** `print()`, `input()`, `sum()`, `len()` |
 | **Método** | Una función que pertenece a un objeto o clase. | Se llama con punto: `objeto.metodo()`. |
 | **Clase** | El molde que define cómo serán los objetos. Contiene atributos (datos) y métodos (comportamientos). | `class Persona:` |
 | **Objeto** | Una instancia creada a partir de una clase. Representa algo concreto. | `p = Persona()` |
